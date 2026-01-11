@@ -13,6 +13,5 @@ public class CreateTaskRequest {
     public String status;
 
     @NotNull(message = "due_date is mandatory")
-    @Future(message = "Due date must be in the future")
     public String due_date;
 }

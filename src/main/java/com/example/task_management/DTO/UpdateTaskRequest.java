@@ -8,6 +8,5 @@ public class UpdateTaskRequest {
     public String description;
     public String status;
 
-    @Future(message = "Due date must be in the future")
     public String due_date;
 }
